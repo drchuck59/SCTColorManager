@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCTdefine" msprop:Generator_TableClassName="SCTdefineDataTable" msprop:Generator_TableVarName="tableSCTdefine" msprop:Generator_TablePropName="SCTdefine" msprop:Generator_RowDeletingName="SCTdefineRowDeleting" msprop:Generator_RowChangingName="SCTdefineRowChanging" msprop:Generator_RowEvHandlerName="SCTdefineRowChangeEventHandler" msprop:Generator_RowDeletedName="SCTdefineRowDeleted" msprop:Generator_UserTableName="SCTdefine" msprop:Generator_RowChangedName="SCTdefineRowChanged" msprop:Generator_RowEvArgName="SCTdefineRowChangeEvent" msprop:Generator_RowClassName="SCTdefineRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="DecValue" msprop:Generator_ColumnVarNameInTable="columnDecValue" msprop:Generator_ColumnPropNameInRow="DecValue" msprop:Generator_ColumnPropNameInTable="DecValueColumn" msprop:Generator_UserColumnName="DecValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
